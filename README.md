@@ -104,5 +104,5 @@ plt.show()
 </code>
 Final results…
 
-<img src="rass.png">
+<img src="rass.png" src="rass1.png">
 
