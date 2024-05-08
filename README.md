@@ -104,3 +104,5 @@ plt.show()
 </code>
 Final results…
 
+<img src="Screenshot(28).png">
+
