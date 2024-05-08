@@ -19,11 +19,12 @@ Step 6 – Visualizing the results.
 
 # Step 1 – Import all the required packages.
 
+'''bash
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 import random
-
+'''
 
 # Step 2 – Reading our image.
 
