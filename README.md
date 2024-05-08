@@ -104,5 +104,5 @@ plt.show()
 </code>
 Final results…
 
-<img src="https://github.com/rasel2253/github123-mynoddin/edit/main/rass.png">
+<img src="rass.png">
 
