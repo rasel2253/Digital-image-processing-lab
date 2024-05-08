@@ -4,10 +4,15 @@ https://rasel2253.github.io/github123-mynoddin/
 **Table of Contents
 
 Step 1 – Import all the required packages.
+
 Step 2 – Reading our image.
+
 Step 3 – Creating a black image.
+
 Step 4 – Actually creating the noisy image.
+
 Step 5 – Applying Median Blur to denoise the image.
+
 Step 6 – Visualizing the results.
 
 
