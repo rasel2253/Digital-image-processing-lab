@@ -17,7 +17,7 @@ Step 6 – Visualizing the results.
 
 
 
-Step 1 – Import all the required packages.
+# Step 1 – Import all the required packages.
 
 import cv2
 import matplotlib.pyplot as plt
@@ -25,20 +25,20 @@ import numpy as np
 import random
 
 
-Step 2 – Reading our image.
+# Step 2 – Reading our image.
 
 img = cv2.imread('test.tiff')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 
-Step 3 – Creating a black image.
+# Step 3 – Creating a black image.
 
 noisy = np.zeros(img.shape, np.uint8)
 Here we have just initialized a black image of same dimensions as of our original image.
 We will be creating our noisy image out of it.
 
 
-Step 4 – Actually creating the noisy image.
+# Step 4 – Actually creating the noisy image.
 
 p = 0.2
 #traversing throughout the image pixels
@@ -61,7 +61,7 @@ Else put the pixel from the original image there.
 98% of the time it will be the else case (pixel from the original image).
 
 
-Step 5 – Applying Median Blur to denoise the image.
+# Step 5 – Applying Median Blur to denoise the image.
 
 Syntax: cv2.medianBlur(src, dst, ksize)
 
@@ -75,7 +75,7 @@ ksize 	 A Size object representing the size of the kernel.
 denoised = cv2.medianBlur(noisy, 5)
 
 
-Step 6 – Visualizing the results.
+# Step 6 – Visualizing the results.
 
 output = [img, noisy, denoised]
 
